@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from 'react-native-vector-icons/MaterialIcons'
 
-import { Container, TabsContainer, TabItem, TabText } from './styles';
+import { Container, TabsContainer, TabItem, TabText } from './styles'
 
 const Tabs = () => (
   <Container>
@@ -29,6 +29,6 @@ const Tabs = () => (
       </TabItem>
     </TabsContainer>
   </Container>
-);
+)
 
-export default Tabs;
+export default Tabs

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from 'react-native-vector-icons/MaterialIcons'
 
-import Header from '../../components/Header';
-import Tabs from '../../components/Tabs';
-import Menu from '../../components/Menu';
+import Header from '../../components/Header'
+import Tabs from '../../components/Tabs/index.js'
+import Menu from '../../components/Menu'
 
 import {
   Container,
@@ -16,7 +16,7 @@ import {
   Description,
   CardFooter,
   Annotation,
-} from './styles';
+} from './styles'
 
 function Main() {
   return (
@@ -33,7 +33,7 @@ function Main() {
           </CardHeader>
           <CardContent>
             <Title>Saldo disponível</Title>
-            <Description>R$ 197,611,65</Description>
+            <Description>R$ 197.611,65</Description>
           </CardContent>
           <CardFooter>
             <Annotation>
@@ -46,7 +46,7 @@ function Main() {
 
       <Tabs />
     </Container>
-  );
+  )
 }
 
-export default Main;
+export default Main
