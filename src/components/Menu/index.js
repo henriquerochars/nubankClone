@@ -13,8 +13,15 @@ import {
   SignOutButtonText,
 } from './styles'
 
-const Menu = () => (
-  <Container>
+const Menu = ({ translateY }) => (
+  <Container
+    style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [0, 1],
+      }),
+    }}
+  >
     <Code>
       <QRCode
         value="https://github.com/henriquerochars"
