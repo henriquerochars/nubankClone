@@ -16,7 +16,7 @@ export const Content = styled.View`
 
 export const Card = styled.View`
   flex: 1;
-  background: #FFF;
+  background: #fff;
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
