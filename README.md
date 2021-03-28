@@ -1,6 +1,6 @@
-# Twitch Clone (App)
+# Nu bank Clone (App)
 
-A basic twitch clone (app) made with react-native, styled-components.
+A basic nu bank app clone made with React Native, styled components, gesture handler and animated components.
 
 ![screen02](./src/assets/readme-assets/nu-print-1.png)
 
